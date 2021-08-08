@@ -1,0 +1,156 @@
+ion-content{
+  width: 1440px;
+    height: 1640px;
+}
+ion-grid{
+    width: 1440px;
+    height: 1640px;
+
+.mainRow2{
+    width: 1440px;
+    height: 1640px;
+    background-color: #211F2A;
+    
+  }
+}
+
+section img{
+  width: 1440px;
+  height: 450px;
+  position: absolute;
+  top: 0px; left: 0px; right: 0;
+  color: #000000;
+  opacity: 20%;
+}
+
+div img{
+  position: absolute;
+  top: 20px; left: 15px;
+  z-index:9;
+
+}
+
+div h5{
+  position: absolute;
+  top: 268px; left: 652px;
+  font-size: 50px;
+  color: #FFFFFF;
+  font-family:AvenirLTStd-Black ;
+}
+
+div ion-text{
+  position: absolute;
+  top: 333px; left: 691px;
+  opacity: 80%;
+  font-size: 29px;
+  color: #FFFFFF;
+  font-family:AvenirLTStd-Black ;
+}
+
+p{
+  font-family:AvenirLTStd-Black ;
+  font-size: 32px;
+  position: absolute;
+  top: 420px; left: 161px;
+  color: #FFED7B;
+
+}
+
+  div p{
+    font-family:AvenirLTStd-Roman ;
+    font-style: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    left:160px; top: 473px;
+    width: 1118px;
+    height: 99px;
+  }
+
+  span ion-label{
+    color:#7BFBFF;
+    font-family:AvenirLTStd-Black ;
+    font-size: 32px;
+    position: absolute;
+    top: 620px; left: 160px;
+  }
+
+
+  .section1{
+    position: absolute;
+    top: 673px; left: 161px;
+    display: inline-flex;
+  }
+  
+  .section2{
+    position: absolute;
+    top: 943px; left: 161px;
+    display: inline-flex;
+  
+  }
+  
+  button{
+    border: none;
+    background-color: #A3A9C5;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    width: 359px;
+    height: 250px;
+    margin: 10px 8px;
+  
+  }
+
+  span h6{
+      position: absolute;
+      top: 1260px; left: 573px;
+      color: #FF7B99;
+      font-size: 32px;
+      font-family:AvenirLTStd-Black ;
+  }
+
+  span p{
+    position: absolute;
+    top: 1313px; left: 520px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    font-family:AvenirLTStd-Black ;
+  }
+
+  .luckyBtn{
+    position: absolute;
+    top: 1386.91px; left: 663.8px;
+    height: 113.07px;
+    width: 109.27px;
+    // animation: breathe 7s linear infinite;
+
+  }
+
+  .luckyBtnBreath{
+    position: absolute;
+    top: 1386.91px; left: 663.8px;
+    height: 113.07px;
+    width: 109.27px;
+    animation: breathe 7s linear infinite;
+
+  }
+
+  @keyframes breathe {
+    0%{transform: scale(.9);}
+		25%{transform: scale(1.5);}
+		60%{transform: scale(.9);}
+		100%{transform: scale(1.5);}
+   }
+
+//   Typeface: Avenir
+// Weight: 400
+// Size: 24
+// Style: normal
+// Character: 0
+// Color: #FFFFFF
+// Horizontal: Center
+// Vertical: Top
+
+  

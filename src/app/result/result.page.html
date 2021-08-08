@@ -1,0 +1,39 @@
+<ion-content>
+  <ion-grid>
+
+  <ion-row class="mainRow2">
+    <div>
+      <img src="../../assets/LuckyTrip_Logo_Small.png">
+    </div>
+    <section *ngIf="service.img">
+    <img [src]="service.img">
+  </section>
+  
+    <div><h5 *ngIf="service.city">{{service.city}}</h5> <h5 *ngIf="!service.city">Destination not exist</h5></div>
+    <div><ion-text >{{service.countryName}}</ion-text></div>
+    <p *ngIf="service.description">What's it like?</p>
+    <div><p *ngIf="service.description">{{service.description}}</p></div>
+
+
+    <span><ion-label>Blog Posts</ion-label></span>
+    <section class="section1">
+    <button></button>
+    <button></button>
+    <button></button>
+    </section>
+
+    <section class="section2">
+    <button></button>
+    <button></button>
+    <button></button>
+    </section> 
+
+    <span><h6>Find a trip to {{service.city}}</h6></span>
+    <span><p>Tap the Lucky button to get started…</p></span>
+    <span *ngIf="service.countryName || service.city"><img src='../../assets/Lucky.png' class="luckyBtn"></span>
+    <span *ngIf="!service.countryName || !service.city"><img src='../../assets/Lucky.png' class="luckyBtnBreath"></span>
+
+  </ion-row>
+
+</ion-grid>
+</ion-content>

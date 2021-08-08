@@ -1,20 +1,47 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-row class="mainRow1">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+      <div>
+        <img src="../../assets/LuckyTrip_Logo_Small.png">
+      </div>
+
+      <div>
+        <ion-label>Search LuckyTrip</ion-label>
+      </div>
+
+      <div>
+        <p>350 destinations, 1500 blog posts, Unlimited Trips</p>
+      </div>
+
+      <ion-searchbar placeholder="Enter a Destination..." #countrySearchBar
+        (ionChange)="searchForCountry($event.target.value)">
+      </ion-searchbar>
+
+      <div>
+        <ion-button (click)="goSearch()">Go</ion-button>
+      </div>
+
+    </ion-row>
+
+    <ion-row class="mainRow2">
+      <span>
+        <ion-label>Trending</ion-label>
+      </span>
+
+      <section class="section1">
+        <button></button>
+        <button></button>
+        <button></button>
+      </section>
+
+      <section class="section2">
+        <button></button>
+        <button></button>
+        <button></button>
+      </section>
+    </ion-row>
+
+  </ion-grid>
+
 </ion-content>
